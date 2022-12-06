@@ -87,8 +87,8 @@ import { readFile } from "../shared/utils";
     },
     onEnd: () => {
       handleLine("");
-      console.log("Day 1 Answer: ", totalScore);
-      console.log("Day 2 Answer: ", totalScoreDesired);
+      console.log("Day 2 Answer 1: ", totalScore);
+      console.log("Day 2 Answer 2: ", totalScoreDesired);
 
     },
   });

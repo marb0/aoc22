@@ -22,8 +22,8 @@ import { readFile } from "../shared/utils";
     onEnd: () => {
       handleLine("");
       calories.sort((a, b) => b - a);
-      console.log("Day 1 Answer: ", calories[0]);
-      console.log("Day 2 Answer: ", calories[0] + calories[1] + calories[2]);
+      console.log("Day 1 Answer 1: ", calories[0]);
+      console.log("Day 1 Answer 2: ", calories[0] + calories[1] + calories[2]);
     },
   });
 })();
